@@ -10,7 +10,7 @@ void main() {
   print("Enter the numbers");
   for (int i = 0; i < n; i++) {
     temp = int.parse(stdin.readLineSync()!);
-    if (temp < 2000 && temp < 2000) // constraints
+    if (temp < 2000 && temp > -2000) // constraints
     {
       array.add(temp);
     }
