@@ -14,7 +14,10 @@ void main() {
     {
       array.add(temp);
     }
-  }
+    else
+    {
+      exit(1);
+    }
   temp = 0;
   int check = 0;
 
